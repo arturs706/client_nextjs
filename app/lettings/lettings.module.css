@@ -1,5 +1,5 @@
 .main {
-  position: relative; /* Ensure that .blur is positioned relative to .main */
+  position: relative; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,9 +8,9 @@
 
 .blur {
   position: absolute;
-  top: 50%; /* Position the top edge of the eclipse at the vertical center of the parent container */
-  left: 28%; /* Position the left edge of the eclipse at the horizontal center of the parent container */
-  transform: translate(-50%, -50%); /* Move the eclipse back by 50% of its own width and height to center it */
+  top: 50%; 
+  left: 28%; 
+  transform: translate(-50%, -50%);
   width: 50%;
   height: 30%;
   background: radial-gradient(ellipse at center, rgb(43, 43, 43) 1%, rgba(255, 255, 255, 0.1) 25%, rgba(202, 202, 202, 0) 100%);

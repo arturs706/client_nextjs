@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    width: 24vh;
+    height: 88vh;
+    z-index: 6;
+    padding-left: 6rem;
+    position: fixed;
+    margin-top: 12vh;
+    padding-top: 3vh;
+}
+
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;   
+}
+
+.nav li {
+    margin: 0 1rem;
+    width: 14vh;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+
+.darknavlink a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+
+.active a{
+    text-decoration: none;
+    color: var(--active-font-color); 
+    font-family: var(--font-lufgaItalic);
+}
